@@ -4,7 +4,7 @@ header {
     position: relative;
     top: 0px;
     font-size: 50px;
-    z-index: 1;
+    float: none;
   }
 
 .footer {
@@ -15,9 +15,13 @@ header {
     color: seagreen;
   }
 
-  img {
+
+
+.aboutBluejeno {
     position: relative;
-    left: 1000px;
-    /* height: ; */
-    z-index: 2;
-  }
+    top: 0px;
+    font-family: 'Varela round', sans-serif;
+    text-align: center;
+    font-size: 38px;
+    color: chocolate;
+}
