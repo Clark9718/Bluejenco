@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    color: gold;
+    position: relative;
+    top: 0px;
+    font-size: 50px;
+    z-index: 1;
+  }
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    font-family: 'Varela round', sans-serif;
+    font-size: 30px;
+    color: seagreen;
+  }
+
+  img {
+    position: relative;
+    left: 1000px;
+    /* height: ; */
+    z-index: 2;
+  }
