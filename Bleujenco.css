@@ -7,6 +7,23 @@ header {
     float: none;
   }
 
+.topnav {
+    background-color: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+.topnav a {
+    font-size: 50px;
+    float: left;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
 .footer {
     position: relative;
     bottom: 0px;
@@ -25,3 +42,30 @@ header {
     font-size: 38px;
     color: chocolate;
 }
+
+
+.watermelon {
+    float: left;
+    width: 30%;
+    background: antiquewhite;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: beige;
+}
+
+.MoneyPlant {
+    float: left;
+    width: 30%;
+    background: antiquewhite;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: beige;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
