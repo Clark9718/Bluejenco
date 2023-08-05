@@ -11,7 +11,7 @@ header {
     background-color: none;
     text-align: center;
     overflow: hidden;
-}
+  }
 
 .topnav a {
     font-size: 50px;
@@ -22,7 +22,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
 
-}
+  }
 
 .footer {
     position: relative;
@@ -41,27 +41,21 @@ header {
     text-align: center;
     font-size: 38px;
     color: chocolate;
-}
+  }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: none;
+    padding: 10px;
+  }
 
-.watermelon {
-    float: left;
-    width: 30%;
-    background: antiquewhite;
+.grid-item {
+    background-color: beige;
+    border: 1px solid black;
     padding: 20px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: beige;
-}
-
-.MoneyPlant {
-    float: left;
-    width: 30%;
-    background: antiquewhite;
-    padding: 20px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: beige;
+    font-size: 30px;
+    text-align: center;
   }
 
   section::after {
@@ -69,3 +63,4 @@ header {
     display: table;
     clear: both;
   }
+
