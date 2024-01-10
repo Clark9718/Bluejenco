@@ -1,11 +1,62 @@
 header {
-    text-align: center;
-    color: gold;
-    position: relative;
-    top: 0px;
-    font-size: 50px;
-    float: none;
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+h2 { 
+  font-size: 40px;
+  text-align: center;
+  color:burlywood;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.header-image {
+  max-width: 150px;
+  height: 200px;
+  margin-left: auto; /* Move the logo to the right */
+}
+
+
+.card {
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 25%
+}
+
+
 
 .topnav {
     background-color: none;
@@ -24,17 +75,7 @@ header {
 
   }
 
-.footer {
-    position: relative;
-    bottom: 0px;
-    font-family: 'Varela round', sans-serif;
-    font-size: 30px;
-    color: seagreen;
-  }
-
-
-
-.aboutBluejeno {
+  .aboutBluejenco {
     position: relative;
     top: 0px;
     font-family: 'Varela round', sans-serif;
@@ -43,7 +84,7 @@ header {
     color: chocolate;
   }
 
-.grid-container {
+  .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: none;
@@ -64,3 +105,11 @@ header {
     clear: both;
   }
 
+  footer {
+    position: relative;
+    bottom: 0px;
+    font-family: 'Varela round', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: seagreen;
+  }
